@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+        <name>Recruitment</name> 
+        <author>Florian Ruechel</author> 
+        <creationDate>2010-02-28</creationDate> 
+        <authorEmail>info@salia-amphora.de</authorEmail> 
+        <version>1.0.0</version> 
+        <description>Recruitment-Anzeige von Saliva Amphora</description>
+        <files>
+				<filename module="mod_recruitment">mod_recruitment.php</filename>
+				<filename module="mod_recruitment">helper.js</filename>
+				<filename module="mod_recruitment">helper.php</filename>
+				<filename module="mod_recruitment">mod_recruitment.xml</filename>
+				<filename module="mod_recruitment">mod_styles.css</filename>
+				<filename module="mod_recruitment">images/deathknight.gif</filename>
+				<filename module="mod_recruitment">images/druid.png</filename>
+				<filename module="mod_recruitment">images/hunter.png</filename>
+				<filename module="mod_recruitment">images/mage.png</filename>
+				<filename module="mod_recruitment">images/paladin.png</filename>
+				<filename module="mod_recruitment">images/priest.png</filename>
+				<filename module="mod_recruitment">images/rogue.png</filename>
+				<filename module="mod_recruitment">images/shaman.png</filename>
+				<filename module="mod_recruitment">images/warlock.png</filename>
+				<filename module="mod_recruitment">images/warrior.png</filename>
+        </files>
+		<languages>
+        	<language tag="en-GB">en-GB.mod_recruitment.ini</language>
+			<language tag="de-DE">de-DE.mod_recruitment.ini</language>
+		</languages>
+
+        <params>
+			<param name="dk_tank" type="radio" default="0"
+			label="LABEL_DK_TANK">
+				<option value="0">NO</option>
+				<option value="1">YES</option>
+			</param>
+			<param name="dk_off" type="radio" default="0"
+			label="LABEL_DK_OFF">
+				<option value="0">NO</option>
+				<option value="1">YES</option>
+			</param>
+			<param name="@spacer" type="spacer" default="" label=""	description="" />
+			<param name="druid_balance" type="radio" default="0"
+			label="LABEL_DRUID_BALANCE">
+				<option value="0">NO</option>
+				<option value="1">YES</option>
+			</param>
+			<param name="druid_restoration" type="radio" default="0"
+			label="LABEL_DRUID_RESTORATION">
+				<option value="0">NO</option>
+				<option value="1">YES</option>
+			</param>
+			<param name="druid_cat" type="radio" default="0"
+			label="LABEL_DRUID_CAT">
+				<option value="0">NO</option>
+				<option value="1">YES</option>
+			</param>
+			<param name="druid_bear" type="radio" default="0"
+			label="LABEL_DRUID_BEAR">
+				<option value="0">NO</option>
+				<option value="1">YES</option>
+			</param>
+			<param name="@spacer" type="spacer" default="" label=""	description="" />
+			<param name="hunter" type="radio" default="0"
+			label="LABEL_HUNTER">
+				<option value="0">NO</option>
+				<option value="1">YES</option>
+			</param>
+			<param name="@spacer" type="spacer" default="" label=""	description="" />
+			<param name="mage" type="radio" default="0"
+			label="LABEL_MAGE">
+				<option value="0">NO</option>
+				<option value="1">YES</option>
+			</param>
+			<param name="@spacer" type="spacer" default="" label=""	description="" />
+			<param name="paladin_holy" type="radio" default="0"
+			label="LABEL_PALADIN_HOLY">
+				<option value="0">NO</option>
+				<option value="1">YES</option>
+			</param>
+			<param name="paladin_retribution" type="radio" default="0"
+			label="LABEL_PALADIN_RETRIBUTION">
+				<option value="0">NO</option>
+				<option value="1">YES</option>
+			</param>
+			<param name="paladin_tank" type="radio" default="0"
+			label="LABEL_PALADIN_TANK">
+				<option value="0">NO</option>
+				<option value="1">YES</option>
+			</param>
+			<param name="@spacer" type="spacer" default="" label=""	description="" />
+			<param name="priest_heal" type="radio" default="0"
+			label="LABEL_PRIEST_HEAL">
+				<option value="0">NO</option>
+				<option value="1">YES</option>
+			</param>
+			<param name="priest_shadow" type="radio" default="0"
+			label="LABEL_PRIEST_SHADOW">
+				<option value="0">NO</option>
+				<option value="1">YES</option>
+			</param>
+			<param name="@spacer" type="spacer" default="" label=""	description="" />
+			<param name="rogue" type="radio" default="0"
+			label="LABEL_ROGUE">
+				<option value="0">NO</option>
+				<option value="1">YES</option>
+			</param>
+			<param name="@spacer" type="spacer" default="" label=""	description="" />
+			<param name="shaman_elemental" type="radio" default="0"
+			label="LABEL_SHAMAN_ELEMENTAL">
+				<option value="0">NO</option>
+				<option value="1">YES</option>
+			</param>
+			<param name="shaman_enhancement" type="radio" default="0"
+			label="LABEL_SHAMAN_ENHANCEMENT">
+				<option value="0">NO</option>
+				<option value="1">YES</option>
+			</param>
+			<param name="shaman_restoration" type="radio" default="0"
+			label="LABEL_SHAMAN_RESTORATION">
+				<option value="0">NO</option>
+				<option value="1">YES</option>
+			</param>
+			<param name="@spacer" type="spacer" default="" label=""	description="" />
+			<param name="warlock" type="radio" default="0"
+			label="LABEL_WARLOCK">
+				<option value="0">NO</option>
+				<option value="1">YES</option>
+			</param>
+			<param name="@spacer" type="spacer" default="" label=""	description="" />
+			<param name="warrior_tank" type="radio" default="0"
+			label="LABEL_WARRIOR_TANK">
+				<option value="0">NO</option>
+				<option value="1">YES</option>
+			</param>
+			<param name="warrior_off" type="radio" default="0"
+			label="LABEL_WARRIOR_OFF">
+				<option value="0">NO</option>
+				<option value="1">YES</option>
+			</param>			
+		</params>
+</install>

@@ -1,0 +1,25 @@
+table #recruitment {
+	width:100%;
+}
+
+td.type {
+	color:green;
+	padding-left:15px;
+}
+
+td.class {
+	padding-left:2px;
+}
+
+table#recruitment tr {
+	height:25px;
+}
+
+a#apply {
+	font-weight:bold;
+	text-decoration:none;
+}
+
+a#apply:hover {
+	text-decoration:underline;
+}
